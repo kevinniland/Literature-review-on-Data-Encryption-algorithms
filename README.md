@@ -16,4 +16,4 @@
 ## References
 * [What is the strongest encryption today?](https://www.technadu.com/strongest-encryption/37596/)
 * [Encryption algorithms](http://www.networksorcery.com/enp/data/encryption.htm)
-* [What is Data Encryption?]{https://www.forcepoint.com/cyber-edu/data-encryption}
+* [What is Data Encryption?](https://www.forcepoint.com/cyber-edu/data-encryption)
