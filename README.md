@@ -12,6 +12,8 @@
 * [Data encryption standard (DES)](https://link.springer.com/referenceworkentry/10.1007%2F0-387-23483-7_94)
 * [Differential Cryptanalysis of the Data Encryption Standard](https://books.google.ie/books?hl=en&lr=&id=hy7jBwAAQBAJ&oi=fnd&pg=PA1&dq=data+encryption&ots=LzhHdNo2oK&sig=zTBgeIFv6_mEB96cJmaln4YUuRk&redir_esc=y#v=onepage&q=data%20encryption&f=false)
 * [Differential Cryptanalysis of the Data Encryption Standard](https://ieeexplore.ieee.org/abstract/document/1598556)
+* [The data encryption standard in perspective](https://ieeexplore.ieee.org/abstract/document/1089771)
+* [Password Security: A Case History](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.128.1635&rep=rep1&type=pdf)
 
 ## References
 * [What is the strongest encryption today?](https://www.technadu.com/strongest-encryption/37596/)
