@@ -21,3 +21,4 @@
 * [What is Data Encryption? I](https://www.forcepoint.com/cyber-edu/data-encryption)
 * [What is Data Encryption? II](https://digitalguardian.com/blog/what-data-encryption)
 * [A brief history of encryption](https://www.gemalto.com/review/Pages/a-brief-history-of-encryption.aspx)
+* [Asymmetric Encryption](https://link.springer.com/referenceworkentry/10.1007%2F978-0-387-39940-9_1485)
