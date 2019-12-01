@@ -4,7 +4,7 @@
 <hr>
 
 ## Area(s) of research
-* [RSA (cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+* [RSA (cryptosystem)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 * [Advanced Encryption System](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 
 ## Papers
