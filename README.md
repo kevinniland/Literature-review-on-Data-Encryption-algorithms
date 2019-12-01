@@ -20,3 +20,4 @@
 * [Encryption algorithms](http://www.networksorcery.com/enp/data/encryption.htm)
 * [What is Data Encryption? I](https://www.forcepoint.com/cyber-edu/data-encryption)
 * [What is Data Encryption? II](https://digitalguardian.com/blog/what-data-encryption)
+* [A brief history of encryption](https://www.gemalto.com/review/Pages/a-brief-history-of-encryption.aspx)
