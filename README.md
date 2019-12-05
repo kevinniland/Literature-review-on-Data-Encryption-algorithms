@@ -22,6 +22,7 @@
 * [A Study of Encryption Algorithms (RSA, DES, 3DES and AES) for Information Security](https://pdfs.semanticscholar.org/187d/26258dc57d794ce4badb094e64cf8d3f7d88.pdf)
 * [Quantum computing on encrypted data](https://www.nature.com/articles/ncomms4074)
 * [Broadcast Encryption’s Bright Future](https://www.researchgate.net/profile/Jeffrey_Lotspiech/publication/2955732_Broadcast_encryption's_bright_future/links/55707e5308aee1eea7587e52.pdf)
+* [Recent Advances in Homomorphic Encryption: A Possible Future for Signal Processing in the Encrypted Domain](https://ieeexplore.ieee.org/abstract/document/6461628)
 
 ## References
 * [What is the strongest encryption today?](https://www.technadu.com/strongest-encryption/37596/)
