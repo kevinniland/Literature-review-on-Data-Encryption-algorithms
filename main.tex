@@ -14,8 +14,47 @@
 \maketitle
 
 \begin{abstract}
-    Data encryption is a security method where information is encoded and can only be accessed or decrypted by a user with the correct encryption key. Encrypted data, also known as cipher text, appears scrambled or unreadable to a person or entity accessing without permission.
+    Summary of literature review - ADD LATER
 \end{abstract}
 
-\section{Introduction}
+\section{\textbf{Introduction}}
+Data encryption is a security method where information is encoded and can only be accessed or decrypted by a user with the correct encryption key. Encrypted data, also known as cipher text, appears scrambled or unreadable to a person or entity accessing it without permission. Decrypted data, also known as plain text, appears readable to a person or entity accessing it with permission. Currently, encryption is one of the most popular and effective data security methods used by organizations. Two main types of data encryption exist - asymmetric encryption, also known as public-key encryption, and symmetric encryption. Symmetric encryption uses a single password to encrypt and decrypt data. Asymmetric encryption uses two keys for encryption and decryption. A public key, which is shared among users, encrypts the data. A private key, which is not shared, decrypts the data. While there are several types of encryption, each developed with different needs and security needs in mind, this literature review will focus on two specific algorithms: RSA encryption (a form of asymmetric encryption), and AES encryption (a form of symmetric encryption). Additionally, this paper will also focus on future encryption systems and possible replacements of existing encryption algorithms, including but not limited to RSA encryption and AES encryption.
+
+\subsection{\textbf{History of Data Encryption}}
+Data encryption, in one form or another, has existed for almost 3,000 years. Circa 600 B.C., Spartans use a device called a scytale to send secret messages during a battle. Circa 60 B.C., Julius Caesar invents a substitution cipher that shifts characters by three places. A becomes D, B becomes E, and so on. In 1553, Giovan Battista Bellaso envisions the first cipher to use a proper encryption key - an agreed-upon keyword that the recipient needs to know if he or she wants to decode the message. In 1854, Charles Wheatstone invents the Playfair Cipher, which encrypts pairs of letters instead of single ones and is therefore harder to crack.
+
+\subsection{\textbf{Rivest–Shamir–Adleman (RSA)}}
+Rivest–Shamir–Adleman (RSA) was one of the first public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and it is different from the decryption key which is kept secret (private). In RSA, this asymmetry is based on the practical difficulty of the factorization of the product of two large prime numbers, the "factoring problem". The acronym RSA is made of the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman, who first publicly described the algorithm in 1977. 
+
+\subsection{\textbf{Data Standard Standard (DES)}}
+The Data Encryption Standard (DES) is a symmetric-key algorithm for the encryption of electronic data. Although its short key length is of 56 bits, criticized from the beginning, makes it too insecure for most current applications, it was highly influential in the advancement of modern cryptography. Developed in the early 1970s at IBM and based on an earlier design by Horst Feistel, the algorithm was submitted to the National Bureau of Standards (NBS) following the agency's invitation to propose a candidate for the protection of sensitive, unclassified electronic government data. In 1976, after consultation with the National Security Agency (NSA), the NBS eventually selected a slightly modified version (strengthened against differential cryptanalysis, but weakened against brute-force attacks), which was published as an official Federal Information Processing Standard (FIPS) for the United States in 1977.
+
+\subsection{\textbf{Advanced Encryption Standard (AES)}}
+The Advanced Encryption Standard (AES), also known by its original name Rijndael, is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001. AES is a subset of the Rijndael block cipher developed by two Belgian cryptographers, Vincent Rijmen and Joan Daemen, who submitted a proposal to NIST during the AES selection process. Rijndael is a family of ciphers with different key and block sizes.
+
+\subsection{\textbf{Current Status of Data Encryption}}
+
+\section{\textbf{Asymmetric Encryption}}
+Asymmetric encryption, also known as public-key encryption, is a form of data encryption where the encryption key (also called the public key) and the corresponding decryption key (also called the private key) are different. In this literature review, we will be looking at a specific asymmetric encryption algorithm, the Rivest–Shamir–Adleman algorithm. The Rivest-Shamir-Adleman (RSA) algorithm, was designed by Ron Rivest, Adi Shamir, and Leonard Adleman in 1978. Based on number theory, which is a block cipher system, it is one of the most widely known public key cryptosystems. It is used for key exchange, digitial signatures, or encryption of blocks of data. RSA uses a variable size encryption block and a variable size key. To generate the public keys (for encryption) and private keys (for decrryption), it uses two prime numbers. The basic operation of the RSA algorithm goes as follows: the Sender encrypts the message using the Receiver's public key. Once the message has been successfully transmitted to the Receiver, the Receiver can then decrypt the message using their own private key. The RSA operation(s) can be broken down into three broad steps: key generation, encryption, and decryption. In regards to this design, it has many flaws and is subsequently not suitable or preferred for commercial use. As discussed in Gurpreet Singh and Supriya's article, "\textbf{\textit{A Study of Encryption Algorithms (RSA, DES, 3DES and AES) for Information Security}}" in the "\textbf{\textit{International Journal of Computer Application}}" journal \cite{Encryption_Study}....
+
+\section{\textbf{Symmetric Encryption}}
+Symmetric encryption is a form of data encryption where the encryption key and the corresponding decryption key are the same. The persons or entities communicating via symmetric encryption must exchange the key so that it can be used in the decryption process. This encryption method differs from asymmetric encryption where a pair of keys, one public and one private, is used to encrypt and decrypt messages. To discuss symmetric encryption, we must quickly look at the first standardized cipher which was
+the Data Encryption System (DES). \newline \newline The Data Encryption Standard (DES) has been around for more than 25 years. Although its short key length is of 56 bits, which was criticized from the beginning, made it too insecure for most current applications (this is evidenced by the fact that it was cracked in 1,997), it was highly influential in the advancement of modern cryptography and in the year 2,000, it was replaced by the Advanced Encryption Standard (AES) which was found through a competition open to the public.
+
+\section{\textbf{Future of Data Encryption}}
+
+\section{\textbf{Possible Replacements of Existing Encryption Algorithms}}
+
+\section{\textbf{Conclusion}}
+
+\bigskip
+
+\printbibliography[title={References}]
+\cite{AES}
+\cite{DES_past&future}
+\cite{RSA_concealing}
+\cite{Encryption_Study}
+\cite{DES}
+\cite{new_encryption}
+\cite{AES_fast}
 \end{document}
