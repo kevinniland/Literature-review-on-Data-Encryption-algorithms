@@ -21,6 +21,7 @@
 * [Implementing the Rivest Shamir and Adleman Public Key Encryption Algorithm on a Standard Digital Signal Processor](https://link.springer.com/chapter/10.1007/3-540-47721-7_24#citeas)
 * [A Study of Encryption Algorithms (RSA, DES, 3DES and AES) for Information Security](https://pdfs.semanticscholar.org/187d/26258dc57d794ce4badb094e64cf8d3f7d88.pdf)
 * [Quantum computing on encrypted data](https://www.nature.com/articles/ncomms4074)
+* [Broadcast Encryption’s Bright Future](https://www.researchgate.net/profile/Jeffrey_Lotspiech/publication/2955732_Broadcast_encryption's_bright_future/links/55707e5308aee1eea7587e52.pdf)
 
 ## References
 * [What is the strongest encryption today?](https://www.technadu.com/strongest-encryption/37596/)
