@@ -7,7 +7,7 @@
 * [RSA (cryptosystem)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 * [Advanced Encryption System](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 
-## Papers
+## Papers, articles, books, etc.
 * [Improvement of Advanced Encryption Standard Algorithm With Shift Row and S.Box Modification Mapping in Mix Column](https://www.sciencedirect.com/science/article/pii/S1877050917321294)
 * [Data encryption standard (DES)](https://link.springer.com/referenceworkentry/10.1007%2F0-387-23483-7_94)
 * [Differential Cryptanalysis of the Data Encryption Standard](https://books.google.ie/books?hl=en&lr=&id=hy7jBwAAQBAJ&oi=fnd&pg=PA1&dq=data+encryption&ots=LzhHdNo2oK&sig=zTBgeIFv6_mEB96cJmaln4YUuRk&redir_esc=y#v=onepage&q=data%20encryption&f=false)
@@ -20,6 +20,7 @@
 * [Rivest-Shamir-Adleman public key cryptosystems do not always conceal messages](https://www.sciencedirect.com/science/article/pii/0898122179900397)
 * [Implementing the Rivest Shamir and Adleman Public Key Encryption Algorithm on a Standard Digital Signal Processor](https://link.springer.com/chapter/10.1007/3-540-47721-7_24#citeas)
 * [A Study of Encryption Algorithms (RSA, DES, 3DES and AES) for Information Security](https://pdfs.semanticscholar.org/187d/26258dc57d794ce4badb094e64cf8d3f7d88.pdf)
+* [Quantum computing on encrypted data](https://www.nature.com/articles/ncomms4074)
 
 ## References
 * [What is the strongest encryption today?](https://www.technadu.com/strongest-encryption/37596/)
