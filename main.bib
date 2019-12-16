@@ -1,65 +1,197 @@
-% Reference 1 - Book on The Design of Rijndael: AES - The Advanced Encryption Standard
-@book{AES,
-    title = {The Design of Rijndael: AES - The Advanced Encryption Standard},
-    author = {Joan Daemen and Vincent Rijmen},
-    isbn = {9783642076466}, 
-    year = {2002},
-    publisher = {Springer-Verlag, Berlin},
-    keywords = {aes}
-}
-
-% Reference 2 - Article on Data Encryption Standard: past and future
-@article{DES_past&future,
-    author = "M.E. Smid and D.K. Branstad",
-    title = "Data Encryption Standard: past and future",
-    journal = "Proceedings of the IEEE",
-    volume = "76",
-    number = "5",
-    pages = "550--559",
-    year = "1988",
-    DOI = "https://doi.org/10.1109/5.4441",
-    keywords = "des"
-}
-
-% Reference 3
-@article{RSA_concealing,
-    author = "G.R. Blakley and I. Borosh",
-    title = "Rivest-Shamir-Adleman public key cryptosystems do not always conceal messages",
-    journal = "Computers & Mathematics with Applications",
-    volume = "5",
-    number = "3",
-    pages = "169--178",
-    year = "1979",
-    DOI = "https://doi.org/10.1016/0898-1221(79)90039-7",
-    keywords = "rsa"
-}
-
-% Reference 4
-@article{Encryption_Study,
-    author = "Gurpreet Singh and Supriya",
-    title = "A Study of Encryption Algorithms (RSA, DES, 3DES and AES) for Information Security",
-    journal = "International Journal of Computer Application",
-    volume = "67",
-    number = "19",
-    pages = "33--38",
-    year = "2013",
-    % DOI = "https://doi.org/10.1016/0898-1221(79)90039-7",
-    keywords = "rsa"
-}
-
-% Reference 5
+% DES REFERENCES
 @book{DES,
     title = {Data encryption standard (DES)},
-    author = {Alex Biryukov and Christophe De Cannière},
+    author = {Biryukov, Alex and De Cannière, Christophe},
     isbn = {9780387234731}, 
     year = {2005},
     publisher = {Springer-Boston, Massachusetts},
     keywords = {des_history}
 }
 
-% Reference 6
-@article{new_encryption,
-    author = "Hsien-Chou Liao and Yun-Hsiang Chao",
+@article{DES_past&future,
+    author = "Smid, Miles E. and Branstad, Dennis K.",
+    title = "Data Encryption Standard: past and future",
+    journal = "Proceedings of the IEEE",
+    volume = "76",
+    number = "5",
+    pages = "550--559",
+    year = "1988",
+    DOI = "https://doi.org/10.1109/5.4441"
+}
+
+@book{des_cryptanalysis,
+    author = {Matsui, Mitsuru},
+    title = {Linear Cryptanalysis Method for DES Cipher},
+    book = {Advances in Cryptology},
+    year = {1994},
+    publisher = {Springer Berlin Heidelberg},
+    pages = {386--397},
+    isbn = {9783540482857},
+    DOI = {https://doi.org/10.1007/3-540-48285-7_33}
+}
+
+@article{des_overview,
+    author = "Kenekayoro, Patrick T.",
+    title = "The data encryption standard thirty four years later: An overview",
+    journal = "African Journal of Mathematics and Computer Science Research",
+    volume = "3",
+    number = "10",
+    pages = "267--269",
+    year = "2010",
+    month = "10"
+}
+
+@misc{des_cracked,
+    title = "Brute Force: Cracking the Data Encryption Standard",
+    author = "Rothke, Ben",
+    url = "https://www.rsaconference.com/industry-topics/blog/brute-force-cracking-the-data-encryption-standard"
+}
+
+% =====================================================================
+
+% AES REFERENCES
+@book{AES,
+    title = {The Design of Rijndael: AES - The Advanced Encryption Standard},
+    author = {Daemen, Joan and Rijmen, Vincent},
+    isbn = {9783642076466}, 
+    year = {2002},
+    publisher = {Springer-Verlag, Berlin},
+    keywords = {aes}
+}
+
+@article{aes_improvement,
+    author = "Riyaldhi, Rizky and Rojali and Kurniawan, Aditya",
+    title = "Improvement of Advanced Encryption Standard Algorithm With Shift Row and S.Box Modification Mapping in Mix Column",
+    journal = "Procedia Computer Science",
+    volume = "116",
+    pages = "401--407",
+    year = "2017",
+    DOI = "https://doi.org/10.1016/j.procs.2017.10.079",
+    keywords = "Advanced Encryption Standard, Optimization, Array Shiftrow"
+}
+
+@book{rijndael_cryptanalysis,
+    title = {Improved Cryptanalysis of Rijndael},
+    author = {Ferguson, Niels and Kelsey, John and Lucks, Stefan and Schneier, Bruce and Stay, Mike and Wagner, David and Whiting, Doug},
+    isbn = {9783540447061}, 
+    year = {2001},
+    series = {Lecture Notes in Computer Science},
+    pages = {213--230},
+    publisher = {Springer Berlin Heidelberg},
+    DOI = {https://doi.org/10.1007/3-540-44706-7_15}
+}
+
+@misc{aes_rijndael_length,
+    author = "Rijmen, Vincent and Daemen, Joan",
+    title = "AES submission document on Rijndael",
+    url = "https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf#page=1"
+}
+
+% ============================================================================
+
+% RSA REFERENCES 
+@misc{RSA,
+    author = "Milanov, Evgeny",
+    title = "The RSA Algorithm",
+    url = "https://sites.math.washington.edu/~morrow/336_09/papers/Yevgeny.pdf"
+}
+
+@article{rsa_cryptanalysis,
+    author = "Wiener, M.J.",
+    title = "Cryptanalysis of short RSA secret exponents",
+    journal = "IEEE Transactions on Information Theory",
+    volume = "36",
+    number = "3",
+    pages = " 553--558",
+    year = "1990",
+    DOI = "https://doi.org/10.1109/18.54902"
+}
+
+% ====================================================================
+
+% GENERAL REFERENCES
+@article{Encryption_Study,
+    author = "Singh, Gurpreet and Supriya",
+    title = "A Study of Encryption Algorithms (RSA, DES, 3DES and AES) for Information Security",
+    journal = "International Journal of Computer Application",
+    volume = "67",
+    number = "19",
+    pages = "33--38",
+    year = "2013",
+    keywords = "rsa"
+}
+
+@article{prime_factorization,
+    author = "Sergeyev, Yaroslav",
+    title = "The Difficulty of Prime Factorization is a Consequence of the Positional Numeral System",
+    journal = "International Journal of Unconventional Computing",
+    volume = "12",
+    number = "5--6",
+    pages = "453--463",
+    year = "2016",
+    keywords = "rsa"
+}
+
+@article{block_cipher,
+    author = "Rezaeipour, Davood and Rushdan Md Said, Mohamad",
+    title = "The block cipher algorithm-properties, encryption efficiency analysis and security evaluation",
+    journal = "Advances and Applications in Mathematical Sciences",
+    volume = "4",
+    number = "2",
+    pages = "129--137",
+    year = "2010",
+    month = "1"
+}
+
+@article{asymm_symm,
+    author = "Simmons, Gustavus J.",
+    title = "Symmetric and Asymmetric Encryption",
+    journal = "ACM Computing Surveys (CSUR)",
+    volume = "11",
+    number = "4",
+    pages = "305--330",
+    year = "1979",
+    month = "12"
+}
+
+@misc{encryption_today,
+    title = "Encryption today: How safe is it really?",
+    url = "http://theconversation.com/encryption-today-how-safe-is-it-really-37806",
+    author = "Baign{\`e}res, Thomas and Vaudenay, Serge",
+    year = "2015",
+    month = "3"
+}
+
+@book{sp_network,
+    title = {Proving the Security of AES Substitution-Permutation Network},
+    booktitle = {Selected Areas in Cryptography},
+    author = {Baign{\`e}res, Thomas and Vaudenay, Serge},
+    isbn = {9783540331094}, 
+    year = {2006},
+    pages = {65--81},
+    publisher = {Springer Berlin Heidelberg},
+    DOI = {https://doi.org/10.1007/11693383_5}
+}
+
+@misc{shift_row,
+    title = "Shift Row Transformation and Other Examples of Advanced Encryption",
+    url = "https://blog.finjan.com/shift-row-transformation-and-other-examples-of-advanced-encryption/",
+    author = "Finjan Team",
+    year = "2017",
+    month = "6"
+}
+
+@misc{encryption_research,
+    title = "Past, Present, and Future Methods of Cryptography and Data Encryption",
+    author = "McDonald, Nicholas G.",
+    url = "https://my.eng.utah.edu/~nmcdonal/Tutorials/EncryptionResearchReview.pdf"
+}
+
+% =====================================================================
+
+% FUTURE OF DATA ENCRYPTION REFERENCES
+@article{new_encryption_mobile,
+    author = "Liao, Hsien-Chou and Chao, Yun-Hsiang",
     title = "A New Data Encryption Algorithm Based on the Location of Mobile Users",
     journal = "Information Technology Journal",
     volume = "7",
@@ -70,38 +202,38 @@
     keywords = "new encryption"
 }
 
-% Reference 7
-@book{AES_fast,
-    title = {Fast Software AES Encryption},
-    author = {Dag Arne Osvik and Joppe W. Bos and Deian Stefan and David Canright},
-    isbn = {9783642138577}, 
-    year = {2010},
-    series = {Lecture Notes in Computer Science},
-    pages = {75---93},
-    publisher = {Springer-Berlin, Heidelberg},
-    keywords = {aes_fast}
+@article{quantum_computing_encryption,
+    author = "Fisher, K.A.G and Broadbent, A. and Shalm, L.K. and Yan, Z. and Lavoie, J. and Prevedel, R. and Jennewein, T. and Resch, K.J.",
+    title = "Quantum computing on encrypted data",
+    journal = "Nature Communications",
+    volume = "5",
+    number = "3074",
+    pages = "1--7",
+    year = "2014",
+    DOI = "https://doi.org/10.1038/ncomms4074",
+    keywords = "quantum computing encryption"
 }
 
-% Reference 8
+@article{encryption_mobile_node,
+    author = "Hamad, Hatem and Elkourd, Souhir",
+    title = "Data encryption using the dynamic location and speed of mobile node",
+    journal = "Journal Media and Communication Studies",
+    volume = "2",
+    number = "3",
+    pages = "67--75",
+    year = "2010",
+    month = "April",
+    keywords = "mn, gps, dtd, sec_key, data encryption, data decryption"
+}
 
-
-% Reference 9
-
-
-% Reference 10
-
-
-% Reference 11
-
-
-% Reference 12
-
-
-% Reference 13
-
-
-% Reference 14
-
-
-% Reference 15
-
+@book{ecc,
+    title = {Guide to Elliptic Curve Cryptography},
+    booktitle = {Encyclopedia of Cryptography and Security},
+    author = {Hankerson, Darrel and Menezes, Alfred and Vanstone, Scott},
+    isbn = {9781441959065}, 
+    year = {2011},
+    pages = {397--397},
+    publisher = {Springer Boston MA},
+    DOI = {https://doi.org/10.1007/978-1-4419-5906-5},
+    url = {https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.394.3037&rep=rep1&type=pdf}
+}
